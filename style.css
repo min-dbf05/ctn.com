@@ -1,0 +1,203 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body {
+	margin: 0;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+.container {
+	max-width: 1065px;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+
+
+/* ヘッダー*/
+header {
+	height: 170px;
+	width: 100%;
+    position: absolute;
+    top: 0
+    left: 0;
+}
+
+header > .container2 {
+	display: flex;
+	align-items: flex-end;
+}
+
+/*ロゴ*/
+.area_logo_header .logo {
+	display: block;
+}
+
+.logo {
+	max-width: 100%
+}
+
+/* ヘッダーナビ */
+.nav_header {
+	margin: 0 0 0 auto;
+}
+.list_nav_header {
+	display: flex;
+	align-items: center;
+    margin: 0 -30px;
+}
+
+.list_nav_header > li {
+	padding: 0 30px;
+}
+
+.list_nav_header a span {
+ 	font-size: 16px;
+	display: block;
+	border-top: 1px dashed #24292e;
+	vertical-align: center;
+}
+
+
+/*トップビュー*/
+.area_top_view {
+	background: url(images/cotton.jpg) no-repeat bottom center;
+	background-size: cover;
+}
+
+.area_top_view > .container {
+	height: 810px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+}
+
+/*news*/
+.news {
+	margin: 0 auto 0 auto;
+	width: 1065px;
+	padding-top: 20px;
+}
+/*shopping*/
+.list_shopping {
+	max-width: 1065px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.list_shopping > li  {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list_shopping img {
+	max-width: 1065px;
+	margin-right: 10px; 
+}
+
+
+/*アクセス（地図と文章を２分割する）*/
+.layout_2_div {
+	max-width: 1065px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.layout_2_div > div {
+	width: 50%
+
+}
+
+footer > .container {
+	padding: 80px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #24292e;
+}
+.list_sns {
+	max-width: 1065px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.list_sns a{
+	display: block;
+	width: 50px;
+    height: 50px;
+}
+
+
+p {
+	font-size: 18px;
+	color: #24292e;
+}
+
+.description {
+	font-size: 20px;
+}
+.description a {
+	
+}
+ 
+.ttl {
+	font-size: 30px;
+}
+
+
+
+ /*---ヘッダー--*/
+
+
+.list_logo {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.list_logo a {
+	display: block;
+}
+
+
+.icon {
+	width: 50px;
+	height: 50px;
+}
+
+/*shopping*/
+
+p a{
+	font-size: 20px;
+}
+
+.map {
+	width: 500px;
+    
+}
+ul#adress li span {
+	font-size: 18px;
+}
+
+ul#adress li{
+	font-size: 20px;
+}
+
+.contact {
+	width: 445px;
+}
+
+legend {
+	color: #24292e;
+	font-size: 20px;
+}
+
+label {
+	color: #24292e;
+	font-size: 18px;
+}
